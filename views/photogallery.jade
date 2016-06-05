@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  link(href="/stylesheets/lightbox.css" rel="stylesheet" type="text/css")
+  script(type="text/javascript" src="/javascripts/lightbox.js")
+  table(cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" class="myTable")
+    case page
+      when 2
+        include _photogallery.2.html
+      when 3
+        include _photogallery.3.html
+      when 4
+        include _photogallery.4.html
+      when 1
+      default
+        include _photogallery.1.html
+    tr
+      td(width="50%" height="20%" colspan="2" align="center")
+        a(href="?page=1") pagina 1 | 
+        a(href="?page=2") pagina 2 | 
+        a(href="?page=3") pagina 3 | 
+        a(href="?page=4") pagina 4

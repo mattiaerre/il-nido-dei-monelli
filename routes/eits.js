@@ -21,6 +21,7 @@ router.post('/login', function (req, res, next) {
 
 router.get('/gallery', function (req, res, next) {
   if (req.cookies.keySessionUserBO === 'allowed') {
+    model.imageUrl = process.env.EITS_IMG_URL;
     res.render('eits-gallery', model);
   }
   else {

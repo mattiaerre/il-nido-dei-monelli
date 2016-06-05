@@ -1,6 +1,6 @@
 {
   "name": "il-nido-dei-monelli",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "nodemon": "DEBUG=il-nido-dei-monelli:server nodemon ./bin/www",

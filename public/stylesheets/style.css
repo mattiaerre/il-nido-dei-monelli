@@ -1,8 +1,99 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url(../images/ilnidodeimonelli01_bg.gif);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+table, tr, td {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4 {
+  margin: 10px;
+  padding: 0px;
+  color: #00008B;
+}
+
+.myBody {
+  text-align: center;
+}
+
+.myBody div {
+  padding: 15px;
+}
+
+.myBody p {
+  padding: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.myBody ul {
+  text-align: left;
+  list-style-type: square;
+  line-height: 20px;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+  color: #0000FF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0000FF;
+}
+
+.myMenu {
+  background-color: #FCCC04;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.myMenu ul {
+  list-style-type: none;
+}
+
+.myMenu li {
+  font-size: 12px;
+}
+
+.myTable table, .myTable tr, .myTable td {
+  border: solid 0px #000000;
+}
+
+.myScheduleTable td {
+  border: solid 1px #666666;
+  background-color: #F5F5F5;
+}
+
+.news h1 {
+  font-size: 12px;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 0px;
+  text-align: left;
+}
+
+.news p {
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  line-height: 15px;
+}
+
+.news {
+  border: 1px solid #666666;
+  margin: 10px;
+  background-color: #F5F599;
+}
+
+.more {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #999999;
+  text-align: center;
+  vertical-align: middle;
 }

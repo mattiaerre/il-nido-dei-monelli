@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h2 Perch&eacute; scegliere "Il Nido dei Monelli"
+  case page
+    when 11
+      div
+       include _index.11.html
+    when 12
+      div
+        include _index.12.html
+    when 13
+      div
+        include _index.13.html
+    default
+      div
+        include _index.default.html

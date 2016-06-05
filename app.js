@@ -9,6 +9,7 @@ var routes = require('./routes/index');
 var contacts = require('./routes/contacts');
 var photogallery = require('./routes/photogallery');
 var eits = require('./routes/eits');
+require('dotenv').config();
 
 var app = express();
 

@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body, input {
+  font-family: Verdana, Arial, Sans-Serif;
+  font-size: 12px;
+}
+
+#divLogin, #divGallery {
+  background-image: url("../images/ilnidodeimonelli01_03.gif");
+  width: 600px;
+  height: 500px;
+}
+
+#tableLogin {
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+#img001 {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  border: solid 1px #000000;
+}
+
+#menu {
+  margin: 0px;
+}
+
+#tablePassword {
+  margin: 25px;
+}

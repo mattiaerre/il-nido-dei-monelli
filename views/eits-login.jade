@@ -2,9 +2,13 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/eits.style.css')
   body
-    table
-      tr
-        td
-          h1 WIP
+    form(method='POST')
+      div#divLogin
+        include _login.html
+        input(type="hidden" id="hdnMessage" value=message)
+        script.
+          (function(){
+            document.getElementById('spnMessage').innerHTML = document.getElementById('hdnMessage').value;
+          })();
